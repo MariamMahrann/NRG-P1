@@ -8,11 +8,11 @@ This repository contains automated test scripts built using Cypress for web appl
 
 To get started with this project, follow the steps below:
 
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd <repository-folder>
-   ```
+- Clone the repository:
+  ```bash
+  git clone <repository-url>
+  cd <repository-folder>
+  ```
 
 ## Install dependencies:
 
@@ -20,8 +20,11 @@ To get started with this project, follow the steps below:
 npm install
 npx cypress install
 npx cypress open
+```
 
 ## Project Structure
+
+```bash
 
 NRG-P1/
 ├── cypress/
