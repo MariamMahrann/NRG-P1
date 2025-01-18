@@ -16,27 +16,29 @@ To get started with this project, follow the steps below:
 
 ## Install dependencies:
 
+```bash
 npm install
-npm cypress install
+npx cypress install
 npx cypress open
 
 ## Project Structure
 
 NRG-P1/
 ├── cypress/
-│ ├── e2e/
-│ │ ├── dragDrop-SC2.cy.js # Drag and Drop Test Case
-│ │ ├── registrationForm-SC1.cy.js # Registration Form Test Case
-│ ├── pages/
-│ │ ├── droppablePage.js # POM for Droppable Test
-│ │ ├── dummyRegistrationForm.js # POM for Registration Form
-│ ├── support/
-│ │ ├── commands.js # Custom Cypress commands
-│ │ ├── e2e.js # Cypress setup and support
-│ │ ├── formData.js # Dynamic form data for tests
-├── videos/ # Videos of test runs
-│ ├── dragDrop-SC2.cy.js.mp4 # Drag and Drop Test video
-│ ├── registrationForm-SC1.cy.js.mp4 # Registration Form Test video
-├── cypress.config.js # Cypress configuration
-├── package.json # Project dependencies and scripts
-├── README.md # Project documentation
+│   ├── e2e/
+│   │   ├── dragDrop-SC2.cy.js       # Drag and Drop Test Case
+│   │   ├── registrationForm-SC1.cy.js  # Registration Form Test Case
+│   ├── pages/
+│   │   ├── droppablePage.js         # POM for Droppable Test
+│   │   ├── dummyRegistrationForm.js # POM for Registration Form
+│   ├── support/
+│   │   ├── commands.js              # Custom Cypress commands
+│   │   ├── e2e.js                   # Cypress setup and support
+│   │   ├── formData.js              # Dynamic form data for tests
+├── videos/                          # Videos of test runs
+│   ├── dragDrop-SC2.cy.js.mp4       # Drag and Drop Test video
+│   ├── registrationForm-SC1.cy.js.mp4 # Registration Form Test video
+├── cypress.config.js                # Cypress configuration
+├── package.json                     # Project dependencies and scripts
+├── README.md                        # Project documentation
+```
